@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cold-Circle</title>
+  <!-- logo icon -->
+  <link rel="icon" href="images/Ice-crem-logo5.svg" class="">
+
+  <!-- Bootstap-cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- custom css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Google-fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,700&family=Roboto:ital,wght@1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#footer-part"><img src="images/Ice-crem-logo5.svg" width="100" height=""
+            alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-copyright icon-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="about-2" href="index.html">About-Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="where to order.html">Where To Order</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Ice-Cream Flavors
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="chocolate.html">Chocolate</a></li>
+                <li><a class="dropdown-item" href="Vanilla.html">vanilla</a></li>
+                <li><a class="dropdown-item" href="Strawberry.html">Strawberry</a></li>
+                <li><a class="dropdown-item" href="Cassata.html">Cassata</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+    <form action="confirm.html" class="row g-3" autocomplete="off">
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Name:</label>
+        <input type="text" class="form-control" id="inputEmail4" required>
+      </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Mobile-No:</label>
+        <input type="text" class="form-control" id="inputPassword4" placeholder="123-456-7890" pattern="[789][0-9]{9}" required>
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Address:</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St"required>
+      </div>
+
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">City:</label>
+        <input type="text" required class="form-control" id="inputCity" >
+      </div>
+      <div class="col-md-3">
+        <label for="inputState" class="form-label">State:</label>
+        <select id="inputState" required class="form-select">
+          <option selected>Choose...</option>
+          <option class="option-1">Maharashtra</option>
+          <!-- <option class="option-1"></option>
+          <option class="option-1">Mumbai</option>
+          <option class="option-1">Nagpur</option> -->
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label for="inputZip" class="form-label">Flavors</label>
+        <!-- <label class="visually-hidden" for="autoSizingSelect">Preference</label> -->
+        <select id="autoSizingSelect" required class="form-select" >
+          <option selected class="option-1">Choose...</option>
+          <option value="1" class="option-1">Chocolate</option>
+          <option value="2" class="option-1">Vanilla</option>
+          <option value="3" class="option-1">strawberry</option>
+          <option value="4" class="option-1">Cassata</option>
+        </select>
+      </div>
+  </div>
+  <div class="container" aria-required="false">
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+    <label class="form-check-label" for="flexCheckChecked">
+      80 Rs
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+    <label class="form-check-label" for="flexCheckChecked">
+      100 Rs
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+    <label class="form-check-label" for="flexCheckChecked">
+      120Rs
+    </label>
+  </div>
+</div>
+  <div class="col-12 text-center my-3">
+    <button type="submit" class="btn btn-bg w-25">Order-Now</button>
+  </div>
+  <!-- <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Check me out
+        </label>
+      </div>
+    </div> -->
+  
+
+
+  </form>
+  <p class="text-center my-4"><iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3867496.2871930697!2d74.5253392322833!3d18.80475488619502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcfc41e9c9cd6f9%3A0x1b2f22924be04fb6!2sMaharashtra!5e0!3m2!1sen!2sin!4v1668970130699!5m2!1sen!2sin"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+  </div>
+  <footer class="footer-main bg-blue" id="footer-part">
+    <div class="container text-center py-2">
+      <div class="row text-center">
+        <div>
+          <a href=""><img src="images/Ice-crem-logo5.svg" class="logo-1" alt=""></a>
+          <a href="">
+            <h1 class="footer-heading">Cold-Circle</h1>
+          </a>
+        </div>
+        <div class="icons">
+          <h4>Follow</h4>
+          <a href=""> <i class="fa-brands fa-square-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-square-pinterest"></i></a>
+          <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+
+        </div>
+      </div>
+    </div>
+
+
+  </footer>
+
+
+
+
+
+
+
+
+
+  <!--BS JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1202mm"
+   height="848mm"
+   viewBox="0 0 1202 848"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="Ice-crem-logo4.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="3420.832"
+     inkscape:cy="1776.9962"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     width="1190mm">
+    <inkscape:grid
+       type="xygrid"
+       id="grid833" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1083.07px;line-height:0;font-family:Algerian;-inkscape-font-specification:'Algerian, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke:#2b1100;stroke-width:16.9227;stroke-miterlimit:4;stroke-dasharray:none;"
+       x="-7.4702554"
+       y="932.33069"
+       id="text837"
+       transform="scale(1.3862484,0.72137144)"><tspan
+         sodipodi:role="line"
+         id="tspan835"
+         x="-7.4702554"
+         y="932.33069"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1083.07px;font-family:Algerian;-inkscape-font-specification:'Algerian, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke:#2b1100;stroke-width:16.9227;stroke-miterlimit:4;stroke-dasharray:none;">c</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:16.9333px;line-height:0;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.264583"
+       x="994.83331"
+       y="698.5"
+       id="text865"><tspan
+         sodipodi:role="line"
+         id="tspan863"
+         x="994.83331"
+         y="698.5"
+         style="stroke-width:0.264583">d</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:201.47px;line-height:0;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';stroke-width:2.36096;fill:#aa0044;"
+       x="209.21935"
+       y="638.81238"
+       id="text869"
+       transform="scale(1.4542355,0.68764654)"><tspan
+         sodipodi:role="line"
+         id="tspan867"
+         x="209.21935"
+         y="638.81238"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:201.47px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';stroke-width:2.36096;fill:#aa0044;">circle</tspan></text>
+  </g>
+</svg>

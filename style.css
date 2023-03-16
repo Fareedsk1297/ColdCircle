@@ -1,0 +1,315 @@
+/* *{
+  font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+} */
+body{
+  background-color: #f9c1cb;
+}
+.navbar{
+background-color: #fefae0
+}
+
+.nav-item{
+    padding: 0 0.65rem;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'Roboto',  'Poppins';
+    font-size: larger;
+    font-weight: bold;
+}
+.dropdown-menu{
+  background-color:  #fefae0;
+}
+.dropdown-menu li:hover a{
+  background-color: #fec89a;
+}
+
+/* carousel-height */
+.carousel-inner {
+    height: 0;
+    padding-bottom: 40%; /* this sets carousel aspect ratio (4:1 here) */
+  }
+  
+  .carousel-item {
+    position: absolute !important; /* Bootstrap is insistent */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .carousel-item img {
+    height: 100%; /* Bootstrap handles width already */
+    object-fit: cover; /* or 'contain' if you want stretch instead of crop */
+  }
+  .carousel-item h1{
+    font-family: 'poppins', sans-serif;
+    text-shadow: rgb(238, 27, 27) 3px -2px 1px;
+    color: rgb(13, 255, 0);
+  }
+  .fs-5{color: rgb(108, 227, 102);
+    text-shadow: #000000 2px 3px 2px;
+  }
+  .content{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+  }
+  /* @media screen and (max-width:768px){
+    .content{
+      font-size: 2rem;
+    }
+    /* .fs-5{
+      font-size: 5px;
+    } */
+  
+  /* p{
+    text-shadow: rgb(238, 27, 27) 3px -2px 1px;
+  } */ 
+/* .container .hrline{
+  text-decoration: underline;
+} */
+/* .container h1{
+  font-size: 5rem;
+} */
+  #pre{
+    line-height: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(99, 40, 188);
+    text-align: justify;
+    font-size: 1.2rem;
+
+  }
+  #prah-2{
+    line-height: 3rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(99, 40, 188);
+    text-align: justify;
+    font-size: 1.2rem;
+    margin-left: 10px;
+  }
+  .a1 h1{
+    color: rgb(11, 11, 67);
+   
+  }
+  a{
+    text-decoration: none;
+  }
+  .col{
+    /* border: 1px solid red; */
+    overflow: hidden;
+  }
+  .col img{
+    transition: 2s;
+    
+  }
+  .col:hover img{
+    transform: scale(1.1);
+  }
+  /* .img-1{
+    height: 25% !important;
+  } */
+/* footer.footer-main{
+ 
+} */
+/* .footer-item li{
+ 
+} */
+.bg-blue{
+  background-color: #f03c69;
+}
+/* .first .footer-item .footer-link {
+text-align: center;
+/* position: relative; */
+
+
+
+.footer-item li{
+  list-style: none;
+
+}
+.footer-link a{
+  /* text-align: center; */
+}
+.icons i{
+  margin-left: 1rem;
+  font-size: 2rem;
+  color: aqua;
+  transition: all 0.8s linear;
+}
+.icons i:hover{
+  transform: rotate(360deg);
+  color: #ffa5bb;
+}
+div .logo-1{
+  text-align: center;
+  width: 10rem;
+}
+
+
+/* cassata-html css */
+.container-fluid{
+  overflow: hidden;
+}
+.cassata-img{
+  height:35rem;
+  transition: all 2s ease;
+}
+.cassata-img:hover{
+  transform: scale(1.1);
+}
+.card-inner-img{
+  height: 10rem;
+}
+.h-3{
+  color: #db1748;
+  font-weight: bold;
+ text-shadow: blue 3px 0.6px 3px;
+}
+a:hover h3{
+  color: #f84471;
+}
+.card{
+  overflow: hidden;
+  background-color: #00365d;
+}
+.card-text{
+  color: #ffa5bb;
+}
+.card .card-inner-img{
+  transition: all 1s linear;
+ 
+}
+.card :hover.card-inner-img{
+  transform: scale(1.2);
+}
+h5{
+  color: #f03c69;
+}
+.btn-1{
+  background-color: #db1748;
+  color: #f9c1cb;
+}
+.btn-1:hover{
+  background-color: #f84471;
+  color: white;
+}
+
+/* strawberry */
+.card-inner-img-1{
+  height: 15rem;
+}
+
+/* contact-us */
+.btn-bg{
+  background-color: #000000;
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+@media screen and (max-width:600px){
+  .btn-bg{
+      font-size: 10px;
+  }
+  /* .nav_img{
+      height:50rem;
+  } */
+} 
+.btn-bg:hover{
+  background-color: #ffa5bb;
+}
+.form-label{
+  font-family: 'Roboto', sans-serif; 
+  font-size: medium;
+  margin-top: 0.6rem;
+}
+option{
+  background-color: #ff4e7a;
+}
+/* #inputState option:hover{
+
+  background-color: #9c55a5;
+} */
+.form-check-label{
+  font-size: medium;
+  font-family: 'roboto', sans-serif;
+}
+
+/* confirm page css */
+.heading-3{
+  font-weight: bolder;
+  color: rgb(15, 153, 15);
+  letter-spacing: 2px;
+  font-size: 3rem;
+  text-shadow: aqua 2px 3px 1px;
+}
+/* button meadia */
+@media screen and (max-width:385){
+  
+}
+
+@media screen and (max-width:535px){
+  .heading-3{
+    font-size: 1rem;
+  }
+}
+/* mobile-icon-style */
+  .mobile-icon{
+   background-color: #3b2d71; 
+   color: #3b2d71 ;
+}
+/* card media query */
+@media screen and (max-width:992px){
+.col-md-4{
+  margin: 0.5rem 0;
+  display: flex;
+}
+.card-title{
+  font-size: 1rem;
+}
+.card-text{
+font-size: 0.7rem;
+
+}
+}
+@media screen and (max-width:768px){
+  .col-md-4{
+    text-align: center;
+   }
+   .card{
+     margin: auto;
+   }
+  }
+
+  /* navbar media */
+  @media  screen and (max-width:992px){
+    .navbar{
+      height: 3rem;
+    }
+    /* @media  screen and (min-width:598px){
+      .navbar{
+        width: 100%;
+      }
+    } */
+
+    .navbar-brand img{
+      height: 1.8rem;
+      margin-bottom: 12px;
+    }
+    .navbar-toggler{
+      height: 1.6rem;
+      margin-bottom: 14px;
+    }
+  }
+/* mobile icon style */
+.navbar-toggler{
+  /* color: #6a1529;  */
+   background-color: #21055d; 
+   color:  #94ffa4;
+}
+.icon-1{
+  position: relative;
+  bottom:3.2px;
+  left: 0;
+}
